@@ -23,11 +23,22 @@ function App() {
         height={172}
         birth={new Date("1988-05-11")}
         picture="https://randomuser.me/api/portraits/women/44.jpg"
+
+
+
       />
 
 
       <Greetings lang="fr"> Ludwig</Greetings>
       <Greetings lang="fr"> François</Greetings>
+
+
+
+      <h1>Random Number Generator</h1>
+
+      <Random min={1} max={6} />
+      <Random min={1} max={100} />
+      <Random min={10} max={50} />
     </div>
   );
 }
